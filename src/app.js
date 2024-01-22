@@ -9,7 +9,7 @@ app.set("sequelize", sequelize)
 app.set("models", sequelize.models)
 
 /**
- * FIX ME!
+ *
  * @returns contract by id
  */
 app.get("/contracts/:id", getProfile, async (req, res) => {
